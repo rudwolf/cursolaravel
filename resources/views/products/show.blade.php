@@ -1,3 +1,8 @@
+@extends('layouts.admin')
+
+@section('title', 'Products')
+
+@section('content')
 <h1 class="page-header">{{ $data->title }}</h1>
 <ul>
     <li>value: {{ $data->value }}</li>
@@ -9,3 +14,4 @@
 <hr>
 <p>Description</p>
 {{ $data->body }}
+@endsection

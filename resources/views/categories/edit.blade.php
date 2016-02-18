@@ -1,10 +1,16 @@
-<h3>Editar Categoria</h3>
+@extends('layouts.admin')
+
+@section('title', 'Edit Category')
+
+@section('content')
+<h3>Edit Category</h3>
 
 @include('validation.messages')
 
 <form action="{{ route('categories.update', ['id'=>$data->id]) }}" method="post">
-    <input type="hidden" name="_method" value="{{ csrf_token() }}">
-    <input type="hidden" name="_token" value="{{ csrf_token() }}">
-    Título: <input type="text" name="title" value="{{ $data->title }}"><br/>
-    <input type="submit" value="Inserir">
+    <input type="hidden" name="_method" value="{{ csrf_token() }}" class="form-control">
+    <input type="hidden" name="_token" value="{{ csrf_token() }}" class="form-control">
+    Title: <input type="text" name="title" value="{{ $data->title }}" class="form-control"><br/>
+    <input type="submit" class="btn btn-success" value="Edit">
 </form>
+@endsection

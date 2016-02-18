@@ -1,20 +1,12 @@
-<h1>Categorias</h1>
-<style>
-    form {
-        display: inline-block;
-    }
-    .buttonAsLink {
-        background:none!important;
-        border:none;
-        padding:0!important;
-        font: inherit;
-        /*border is optional*/
-        text-decoration: underline;
-        cursor: pointer;
-    }
-</style>
-<a href="{{ route('categories.create') }}">Novo</a>
-<table>
+@extends('layouts.admin')
+
+@section('title', 'Categories')
+
+@section('content')
+<h1>Categories</h1>
+
+<a href="{{ route('categories.create') }}" class="btn btn-primary pull-right">New</a>
+<table class="table table-hover table-striped">
     <thead>
     <tr>
         <th>id</th>
@@ -28,14 +20,15 @@
             <th>{{ $v->id }}</th>
             <th>{{ $v->title }}</th>
             <th>
-                <a href="{{ route('categories.show', ['id'=>$v->id]) }}">view</a>
-                <a href="{{ route('categories.edit', ['id'=>$v->id]) }}">edit</a>
-                <form action="{{ route('categories.show', ['id'=>$v->id]) }}" method="post">
+                <a href="{{ route('categories.show', ['id'=>$v->id]) }}" class="btn btn-primary btn-xs">view</a>
+                <a href="{{ route('categories.edit', ['id'=>$v->id]) }}" class="btn btn-success btn-xs">edit</a>
+                <form action="{{ route('categories.show', ['id'=>$v->id]) }}" method="post" class="inlineblock">
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}" >
-                    <input type="submit" class="buttonAsLink" value="remove">
+                    <input type="submit" class="btn btn-danger btn-xs" value="remove">
                 </form> </th>
         </tr>
     @endforeach
     </tbody>
 </table>
+@endsection
