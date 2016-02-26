@@ -25,7 +25,7 @@ class CrudController extends Controller
     public function store(Request $request)
     {
         $this->getModel()->create($request->all());
-        return redirect()->route($this->path.'.index');
+        return redirect()->route($this->route_base_name.'.index');
     }
 
     public function show($id)
@@ -44,14 +44,14 @@ class CrudController extends Controller
     {
         $item = $this->getModel()->find($id);
         $item->update($request->all());
-        return redirect()->route($this->path.'.index');
+        return redirect()->route($this->route_base_name.'.index');
     }
 
     public function destroy($id)
     {
         $item = $this->getModel()->find($id);
         $item->delete();
-        return redirect()->route($this->path.'.index');
+        return redirect()->route($this->route_base_name.'.index');
     }
 
     protected function getModel()

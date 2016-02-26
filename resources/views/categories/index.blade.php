@@ -5,7 +5,7 @@
 @section('content')
 <h1>Categories</h1>
 
-<a href="{{ route('categories.create') }}" class="btn btn-primary pull-right">New</a>
+<a href="{{ route('admin.categories.create') }}" class="btn btn-primary pull-right">New</a>
 <table class="table table-hover table-striped">
     <thead>
     <tr>
@@ -20,9 +20,9 @@
             <th>{{ $v->id }}</th>
             <th>{{ $v->title }}</th>
             <th>
-                <a href="{{ route('categories.show', ['id'=>$v->id]) }}" class="btn btn-primary btn-xs">view</a>
-                <a href="{{ route('categories.edit', ['id'=>$v->id]) }}" class="btn btn-success btn-xs">edit</a>
-                <form action="{{ route('categories.show', ['id'=>$v->id]) }}" method="post" class="inlineblock">
+                <a href="{{ route('admin.categories.show', ['id'=>$v->id]) }}" class="btn btn-primary btn-xs">view</a>
+                <a href="{{ route('admin.categories.edit', ['id'=>$v->id]) }}" class="btn btn-success btn-xs">edit</a>
+                <form action="{{ route('admin.categories.show', ['id'=>$v->id]) }}" method="post" class="inlineblock">
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}" >
                     <input type="submit" class="btn btn-danger btn-xs" value="remove">

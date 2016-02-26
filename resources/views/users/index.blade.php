@@ -5,7 +5,7 @@
 @section('content')
 <h1>Users</h1>
 
-<a href="{{ route('users.create') }}" class="btn btn-primary pull-right">New</a>
+<a href="{{ route('admin.users.create') }}" class="btn btn-primary pull-right">New</a>
 <table class="table table-hover table-striped">
     <thead>
     <tr>
@@ -22,9 +22,9 @@
             <th>{{ $v->name }}</th>
             <th>{{ $v->email }}</th>
             <th>
-                <a href="{{ route('users.show', ['id'=>$v->id]) }}" class="btn btn-primary btn-xs">view</a>
-                <a href="{{ route('users.edit', ['id'=>$v->id]) }}" class="btn btn-success btn-xs">edit</a>
-                <form action="{{ route('users.show', ['id'=>$v->id]) }}" method="post" class="inlineblock">
+                <a href="{{ route('admin.users.show', ['id'=>$v->id]) }}" class="btn btn-primary btn-xs">view</a>
+                <a href="{{ route('admin.users.edit', ['id'=>$v->id]) }}" class="btn btn-success btn-xs">edit</a>
+                <form action="{{ route('admin.users.show', ['id'=>$v->id]) }}" method="post" class="inlineblock">
                     <input type="hidden" name="_method" value="DELETE">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}" >
                     <input type="submit" class="btn btn-danger btn-xs" value="remove">

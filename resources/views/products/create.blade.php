@@ -7,7 +7,7 @@
 
 @include('validation.messages')
 
-<form action="{{ route('products.store') }}" method="POST">
+<form action="{{ route('admin.products.store') }}" method="POST">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     Title: <input type="text" name="title" value="{{ old('title') }}" class="form-control"><br>
     Description: <textarea name="body" value="{{ old('body') }}" class="form-control"></textarea><br>

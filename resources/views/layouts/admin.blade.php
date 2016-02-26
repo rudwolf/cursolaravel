@@ -24,18 +24,21 @@
 					  <a class="navbar-brand" href="/">Adm Laravel 5.1</a>
 					</div>
 
+					@if (Auth::check())
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					  <ul class="nav navbar-nav">
-					    <li><a href="{{ route('products.index') }}">Products</a></li>
-					    <li><a href="{{ route('categories.index') }}">Categories</a></li>
-					    <li><a href="{{ route('users.index') }}">Users</a></li>
+					    <li><a href="{{ route('admin.products.index') }}">Products</a></li>
+					    <li><a href="{{ route('admin.categories.index') }}">Categories</a></li>
+					    <li><a href="{{ route('admin.users.index') }}">Users</a></li>
 					  </ul>
 					  <ul class="nav navbar-nav navbar-right">
-					  	<li><a href="#">Erik</a></li>
-					    <li><a href="#" title="Logout"><span class="glyphicon glyphicon-off"></span></a></li>
+					  	<li><a href="#"> {{ Auth::user()->name }}</a></li>
+					    <li><a href="{{ route('auth.logout') }}" title="Logout"><span class="glyphicon glyphicon-off"></span></a></li>
 					  </ul>
 					</div><!-- /.navbar-collapse -->
+					@endif
+
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>

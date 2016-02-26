@@ -7,7 +7,7 @@
 
 @include('validation.messages')
 
-<form action="{{ route('users.update', ['id'=>$data->id]) }}"method="POST">
+<form action="{{ route('admin.users.update', ['id'=>$data->id]) }}"method="POST">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <input type="hidden" name="_method" value="PUT">
     Name: <input type="text" name="name" value="{{ $data->name }}" class="form-control"><br>

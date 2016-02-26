@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\ProductsRequest;
@@ -10,6 +10,7 @@ class ProductsController extends CrudController
 {
     protected $model = '\App\Product';
     protected $path = 'products';
+    protected $route_base_name = 'admin.products';
 
     public function __construct(ProductsRequest $request)
     {
