@@ -23,7 +23,7 @@ class ProductsController extends CrudController
 
         if ($request->isMethod('post')) {
             $product->categories()->sync($request->input('categories'));
-            return redirect()->route('products.index');
+            return redirect()->route('admin.products.index');
         }
 
         $categories = \DB::table('categories')->lists('title','id');
@@ -33,4 +33,6 @@ class ProductsController extends CrudController
             compact('product','checked','categories')
         );
     }
+
+
 }

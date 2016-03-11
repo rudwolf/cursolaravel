@@ -16,6 +16,7 @@
     Value: <input type="number" name="value" value="{{ $data->value }}" class="form-control"><br>
     Quantity: <input type="number" name="qtd" value="{{ $data->qtd }}" class="form-control"><br>
     Url: <input type="text" name="url" value="{{ $data->url }}" class="form-control"><br>
+
     <input type="submit" value="Alterar" class="btn btn-success btn-lg">
 </form>
 @endsection

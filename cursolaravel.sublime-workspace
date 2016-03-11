@@ -1,0 +1,627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"ob_end",
+				"ob_end_clean"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"wp_regi",
+				"wp_register_script"
+			],
+			[
+				"REQ",
+				"_REQUEST"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"kraken",
+				"krakenmutual"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ob_get_",
+				"ob_get_contents"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/vagrant/scotch/cursolaravel.dev",
+		"/C/vagrant/scotch/cursolaravel.dev/app",
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http",
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http/Controllers"
+	],
+	"file_history":
+	[
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http/Controllers/CrudController.php",
+		"/C/vagrant/scotch/public/wpp/examples/exampleFunctional.php",
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http/Controllers/ProductsController.php",
+		"/C/Users/Kraken/Desktop/wp-config.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/products/categories.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/users/edit.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/users/create.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/categories/edit.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/products/edit.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http/Controllers/UsersController.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/users/index.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/app/Http/routes.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/layouts/admin.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/products/index.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/products/create.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/resources/views/categories/index.blade.php",
+		"/C/vagrant/scotch/cursolaravel.dev/public/css/extras.css",
+		"/C/vagrant/scotch/cursolaravel.dev/public/css/bootstrap.css",
+		"/C/vagrant/scotch/cursolaravel.dev/cursolaravel.sublime-project",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/style.css",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/layout/_structure.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/shared/_clearings.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/components/content/content.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/components/content-hero/content-hero.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/components/content-page/content-page.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/components/archive-header/archive-header.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/style.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/variables/_variables.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/variables/_colors.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/variables/_structure.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/variables/_typography.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/stylesheets/layout/_widgets.scss",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/js/skip-link-focus-fix.js",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/js/navigation.js",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/assets/js/customizer.js",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/index.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/page.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/functions.php",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/languages/kraken-components.pot",
+		"/C/vagrant/lemp/wp/wp-content/themes/kraken-components/languages/readme.txt",
+		"/C/vagrant/lemp/wp/wp-config.php",
+		"/C/vagrant/lemp/ansible/roles/mysql/tasks/main.yml",
+		"/C/vagrant/lemp/ansible/windows.sh",
+		"/C/vagrant/lemp/ansible/playbook.yml",
+		"/C/vagrant/lemp2/Vagrantfile",
+		"/C/vagrant/lemp/Vagrantfile",
+		"/C/WINDOWS/System32/drivers/etc/hosts",
+		"/C/vagrant/scotch/Vagrantfile",
+		"/C/vagrant/lemp/provision.sh",
+		"/C/Users/Kraken/.ssh/public/Win9_Kraken",
+		"/C/wamp/www/mutual_en/wp-content/themes/kraken/style.css",
+		"/C/Users/Kraken/Desktop/full.json",
+		"/C/wamp/www/mutual_en/wp-content/themes/kraken/page-typeform.php",
+		"/C/wamp/www/mutual_en/wp-content/themes/kraken/page.php",
+		"/C/wamp/www/mutual_en/wp-content/themes/kraken/category.php",
+		"/C/wamp/www/mutual_en/wp-content/themes/kraken/content-page.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/archive.php",
+		"/C/Users/Kraken/Desktop/colors.json",
+		"/C/vagrant/scotch/public/mix/docs/api-methods.md",
+		"/C/work/kraft/wp-content/themes/arona/archive.php",
+		"/C/work/kraft/wp-content/themes/arona/content.php",
+		"/C/work/kraft/wp-content/themes/arona/index.php",
+		"/C/work/kraken/www/wp-content/themes/kraken-agile/style.css",
+		"/C/wamp/www/xlog/index.php",
+		"/C/work/mutual/temp/page-home-desk-en.php",
+		"/C/work/mutual/temp/page-home-desk.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer 4.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer 3.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer 2.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer 6.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/footer 5.php",
+		"/C/Users/Kraken/AppData/Local/Temp/fz3temp-1/default.css",
+		"/C/work/kraken/www/wp-content/themes/agile/archive.php",
+		"/C/work/kraken/www/wp-content/themes/kraken-agile/loop-meta.php",
+		"/C/work/kraken/www/wp-content/themes/agile/framework/functions/utility-functions.php",
+		"/C/work/kraken/www/wp-content/themes/agile/framework/functions/blog-content.php",
+		"/C/work/kraken/www/wp-content/themes/agile/template-archives.php",
+		"/C/work/kraken/www/wp-content/themes/agile/framework/scripts/sendmail.php",
+		"/C/Users/Kraken/.ssh/id_rsa",
+		"/C/work/kraken/www/wp-content/themes/kraken-agile/functions.php",
+		"/C/work/kraken/www/wp-content/themes/kraken-agile/framework/shortcodes/contact-shortcodes.php",
+		"/C/Users/Kraken/Desktop/push-it-to-the-limit/footer.php",
+		"/C/Users/Kraken/Desktop/wpcu.php",
+		"/C/work/kraken/www/wp-content/themes/kraken-agile/single-portfolio.php",
+		"/C/Users/Kraken/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/work/kraken/www/wp-content/themes/agile/template-blog.php",
+		"/C/work/kraken/www/wp-content/themes/agile/footer.php",
+		"/C/work/kraken/wp-content/themes/kraken-agile/style.css",
+		"/C/wamp/www/kraken_wp/wp-content/themes/krakenagencia/page-home.php",
+		"/C/wamp/www/kraken_wp/wp-content/themes/krakenagencia/header.php",
+		"/C/vagrant/php7/sites/learningsymfony/web/app_dev.php",
+		"/C/vagrant/php7/Vagrantfile",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/vagrant/php7/info/info.php",
+		"/C/work/kita/www/wp-content/themes/agile/framework/framework.php",
+		"/C/Users/Kraken/Desktop/emails",
+		"/C/work/kita/www/wp-content/themes/agile/footer.php",
+		"/C/Users/Kraken/Desktop/pop_mutual.txt",
+		"/C/work/kraken/wp-content/themes/agile/framework/extensions/aq_resizer.php",
+		"/C/work/kraken/wp-content/themes/agile/framework/admin/portfolio-admin.php",
+		"/C/work/kraken/wp-content/themes/agile/framework/functions/thumbnail-functions.php",
+		"/C/vagrant/scotch/kita.dev/public/wp-content/themes/kita-advogados/style.css",
+		"/C/work/optimist/bolsas2/gulpfile.js",
+		"/C/vagrant/scotch/db_backup.sql",
+		"/C/vagrant/scotch/agile.dev/public/wp-content/themes/agile-kita/style.css",
+		"/C/work/AGILE/README - Importing sample data and replicating demo site.txt",
+		"/C/vagrant/scotch/gulprocess/gulpfile.js",
+		"/C/vagrant/ubuntu/npm-debug.log",
+		"/C/vagrant/scotch/agile.dev/public/wp-config.php",
+		"/C/vagrant/scotch/agile.dev/public/wp-config-sample.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/francisco.css",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/inc/shortcodes.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/header.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/css/rgs.css",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/functions.php",
+		"/C/Users/Kraken/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Kraken/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/wamp/www/mutual/wp-includes/functions.php",
+		"/C/wamp/www/mutual/wp-includes/shortcodes.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/page-landing2.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/content-none.php",
+		"/C/wamp/www/mutual/wp-content/themes/kraken/content-page.php",
+		"/C/wamp/www/camil/views/theme/pages/home2.php",
+		"/C/wamp/www/camil/views/theme/pages/home.php",
+		"/C/wamp/www/camil/views/HomePageView.class.php",
+		"/C/wamp/www/camil/controllers/PageController.class.php",
+		"/C/wamp/www/camil/controllers/base/Controller.class.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"C:\\work\\kraken\\www\\wp-content\\themes\\agile",
+			"C:\\work\\kita\\www\\wp-content\\themes\\agile",
+			"C:\\work\\kraken\\wp-content\\themes\\agile",
+			"C:\\vagrant\\scotch\\climber.dev\\public\\wp-content\\themes\\kraken_climber",
+			"C:\\wamp\\www\\kraken_wp\\wp-content\\themes\\krakenagencia",
+			"C:\\wamp\\www\\kraken_wp\\wp-content",
+			"C:\\wamp\\www\\grupocamil",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken\\js",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content\\plugins\\tag-groups",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content",
+			"C:\\wamp\\www\\mutual\\wp-content\\plugins\\tag-groups",
+			"C:\\wamp\\www\\mutual\\wp-content\\plugins\\advanced-custom-fields",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\vagrant\\php_54\\camilnovo\\views",
+			"C:\\vagrant\\php_54\\camilnovo",
+			"C:\\wamp\\www\\mutual",
+			"C:\\wamp\\www\\mutual\\wp-content\\plugins\\contact-form-7",
+			"C:\\wamp\\www\\mutual\\wp-content\\themes\\kraken",
+			"C:\\wamp\\www\\mutual"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"max-wid",
+			"min-w",
+			"\\n\\n",
+			"Archives for",
+			"mo_exec_action",
+			"mo_display_post_content_list_style",
+			"mo_display_blog_content",
+			"mo_display_archive_content",
+			"visit",
+			"mo_display_blog_content",
+			"mo_display_starter_content",
+			"mo_footer_content",
+			"3377",
+			"\\n\\n",
+			"Please provide",
+			"aq_resize",
+			"var_d",
+			"mo_get_aqua_thumbnail_urls",
+			"mo_get_thumbnail_urls",
+			"mo_thumbnail",
+			"portfolio_image",
+			"Portfolio Image",
+			"portfolio_thumbnail",
+			"mo_thumbnail",
+			"portfolio_image",
+			"portfolio image",
+			"liveperson",
+			"create database",
+			"users",
+			"http://mutual/",
+			";\n",
+			"\\n\\n",
+			"sample_options",
+			"adwords",
+			"google",
+			"/novo/",
+			"kraken",
+			"open_msg",
+			"camil",
+			"camil.com.br",
+			"sustainability",
+			"Aqui apresentaremos mensalmente o volume",
+			"navegadorTipo",
+			"media",
+			"1024",
+			"francisco.css",
+			"set_post",
+			"exibir_ultimos_posts",
+			"ultimos-posts",
+			"abas",
+			"avas",
+			"INDústria",
+			"format",
+			"forma",
+			"work with us",
+			"fn-center-conteudo-int",
+			"100",
+			"exte",
+			"font",
+			"afp_nonce",
+			"var_dump",
+			"download our",
+			"</div>",
+			"cliente",
+			"maps.google",
+			"youtube",
+			"gallery_data",
+			"Tel.",
+			"Voltar para Portifolio",
+			"busca",
+			"obra em andamento",
+			"ver no mapa",
+			"last-child",
+			"assuntos",
+			"OUTROS ASSUNTOS",
+			"head office",
+			"Escritório central",
+			"tg_translate_string_wpml",
+			"filter_get_posts",
+			"filter_posts",
+			"ajaxFilter",
+			"checkbox",
+			"get_taxonomies_for_select",
+			"meta_box_location",
+			"load_field",
+			"taxon",
+			"post category",
+			"portfolio",
+			"clientes",
+			"wpml_browser",
+			"metaslider",
+			"jQuery",
+			"MarkerHistory",
+			"marcador-historico",
+			"metaslider",
+			"-451",
+			"industr",
+			"-36",
+			"metaslider-66",
+			"_66",
+			"metaslider",
+			"metaslider-60",
+			"metaslider-66",
+			"slider-descricao",
+			"878",
+			"fn_wp_getImage",
+			"imagem_conteudo_sobre",
+			"scroll.css",
+			"kraken",
+			"'twentyfourteen' )",
+			"twentyfourteen",
+			"twenty",
+			" === false)",
+			"!(",
+			" === false)",
+			"!(",
+			"qtrans_use",
+			"col-rig",
+			"menu-sustentabilidade",
+			"alt=\"imagem dicas 1\" width=\"893\"",
+			"alt=\"imagem dicas 1\" width=\"588\"",
+			"2013/bg-dicas-rodape2.png",
+			"2013/bg-dicas-rodape.png",
+			"imagem dicas 1",
+			"sidebar-col-right",
+			"sou eu",
+			"home",
+			"Content-Security-Policy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"https://mutual.com.br/",
+			"\\n",
+			"<span></span></div>",
+			"$",
+			"'krakenmutual' )",
+			"alt=\"imagem dicas 1\" width=\"888\"",
+			"alt=\"imagem dicas 1\" width=\"893\"",
+			"2013/bg-dicas-rodape2.png",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 140.0
+	},
+	"pinned_build_system": "",
+	"project": "cursolaravel.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"categories.bl",
+				"resources\\views\\products\\categories.blade.php"
+			],
+			[
+				"edit",
+				"resources\\views\\users\\edit.blade.php"
+			],
+			[
+				"create",
+				"resources\\views\\users\\create.blade.php"
+			],
+			[
+				"userscre",
+				"app\\Http\\Controllers\\UsersController.php"
+			],
+			[
+				"usersindex",
+				"resources\\views\\users\\index.blade.php"
+			],
+			[
+				"index",
+				"resources\\views\\categories\\index.blade.php"
+			],
+			[
+				"create.",
+				"resources\\views\\products\\create.blade.php"
+			],
+			[
+				"index.bl",
+				"resources\\views\\products\\index.blade.php"
+			],
+			[
+				"admin.b",
+				"resources\\views\\layouts\\admin.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "larav",
+		"selected_items":
+		[
+			[
+				"larav",
+				"C:\\vagrant\\scotch\\cursolaravel.dev\\cursolaravel.sublime-project"
+			],
+			[
+				"",
+				"C:\\Program Files\\Sublime Text 3\\Projects\\kraft.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -144,6 +144,9 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        App\Providers\ProductImageHandler::class,
 
     ],
 

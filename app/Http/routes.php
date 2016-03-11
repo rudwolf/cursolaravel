@@ -1,5 +1,30 @@
 <?php
 
+/*
+ * Site
+ */
+
+Route::get('/', 'ProductsController@index');
+
+Route::get(
+	'category/{id}',
+	[
+		'uses' => 'CategoriesController@listProducts',
+		'as' => 'list_products'
+	]
+);
+
+Route::get(
+		'product/{url}',
+		[
+				'uses' => 'ProductsController@details',
+				'as' => 'products_details'
+		]
+);
+
+/*
+ * Admin
+ */
 Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware' => 'auth'], function() {
 	Route::get('/', function() {
 		return view('layouts.admin');
